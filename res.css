@@ -1,0 +1,41 @@
+@media (min-width:320px){
+    .container{
+        width:90%;
+        margin: auto;
+    }
+   .about-row{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .about-col{
+    width:100%;
+   }
+}
+@media (min-width:620px){
+    .container{
+        width:85%;
+        margin: auto;
+    }
+   .about-row{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .about-col{
+    width:50%;
+   }
+   
+} 
+@media (min-width:1000px){
+    .container{
+        width:85%;
+        margin: auto;
+    }
+   .about-row{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .about-col{
+    width:25%;
+   }
+   
+}
